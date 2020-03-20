@@ -1,7 +1,7 @@
 module.exports = class DepthCalculator {
 
     calculateDepth(arr) {
-        console.log(arr);
+
         let level = 0;
 
         arr.forEach(el => {
